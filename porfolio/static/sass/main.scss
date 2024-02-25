@@ -1,0 +1,41 @@
+@import "./utils/variables/variables";
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+$header-gradient : linear-gradient(90deg,rgba($color-primary, .5),rgba($color-secondary, .4));
+body{
+    background-color: $color-primary;
+   font-family: "Montserrat", sans-serif ;
+}
+
+.header{
+    &__nav{
+        background-color: $color-secondary;
+
+    }
+}
+.nav{
+    background: $header-gradient, url("../images/im3.jpg") ;
+    font-family: "Akaya Kanadaka", sans-serif;
+    font-size:1.2rem;
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+    clip-path: ellipse(100% 100% at 50% 0%);
+
+
+}
+.card-body{
+    height: 100px;
+}
+.footer{
+    box-shadow: 1px 1px 5px #063941;
+}
+.titre_footer{
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 2px 2px 2px;
+
+}

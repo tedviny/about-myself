@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #154363;
+  font-family: "Montserrat", sans-serif; }
+
+.header__nav {
+  background-color: #47cc6a; }
+
+.nav {
+  background: linear-gradient(90deg, rgba(21, 67, 99, 0.5), rgba(71, 204, 106, 0.4)), url("../images/im3.jpg");
+  font-family: "Akaya Kanadaka", sans-serif;
+  font-size: 1.2rem;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+  clip-path: ellipse(100% 100% at 50% 0%); }
+
+.footer {
+  box-shadow: 1px 1px 5px #063941; }
+
+.titre_footer {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 2px 2px 2px; }
+
+/*# sourceMappingURL=main.css.map */
