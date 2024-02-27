@@ -1,0 +1,11 @@
+.about{
+    &__heading{
+        @include heading-shadow;
+    }
+}
+
+.project {
+    &__heading{
+        @include heading-shadow;
+    }
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+:root{
+  --primary-color: linear-gradient(90deg, rgba(21, 67, 99, 0.5), rgba(71, 204, 106, 0.4)), url("../images/im3.jpg");
+  --secondary-color: #47cc6a;
+  --project-color-one: #2a9d8f;
+  --project-color-two: #1C5588;
+  --project-color-three: #f4a261;
+  --project-color-four: #e76f51;
+  --project-color-five: #264653;
+  --sans-serif: "Playfair Display", sans-serif;
+}
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  background-color: #154363;
+  font-family: var(--sans-serif); 
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav {
+  background-color: var(--secondary-color); }
+
+.nav {
+  background: var(--primary-color);
+  font-family: "Akaya Kanadaka", sans-serif;
+  font-size: 1.2rem;
+  height: 250px;
+  background-position: center center;
+  background-size: cover;
+  clip-path: ellipse(100% 100% at 50% 0%); }
+
+.card-body {
+  height: 100px; }
+
+.project__card__one {
+  background-color: var(--project-color-one); }
+
+.project__card__two {
+  background-color: var(--project-color-two); 
+}
+
+.project__card__three {
+  background-color: var(--project-color-three); 
+}
+
+.project__card__four {
+  background-color: var(--project-color-four); 
+}
+
+.project__card__five {
+  background-color: var(--project-color-five); 
+}
+.footer {
+  box-shadow: 1px 1px 5px #063941; }
+
+.titre_footer {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 2px 2px 2px; }
+
+/*# sourceMappingURL=style.css.map */
